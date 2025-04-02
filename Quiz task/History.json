@@ -1,0 +1,93 @@
+[
+    {
+        "question":"Who was the first President of the United States?",
+        "option1":"Thomas Jefferson",
+        "option2":"George Washington",
+        "option3":"Abraham Lincoln",
+        "option4":"John Adams",
+        "correct":"option2",
+        "hint":"He is often referred to as the Father of the Nation."
+    },
+    {
+        "question":"In which year did World War I begin?",
+        "option1":"1914",
+        "option2":"1918",
+        "option3":"1939",
+        "option4":"1945",
+        "correct":"option1",
+        "hint":"The assassination of Archduke Franz Ferdinand triggered the war."
+    },
+    {
+        "question":"The Great Wall of China was built to protect against invasions from which group?",
+        "option1":"Romans",
+        "option2":"Mongols",
+        "option3":"Persians",
+        "option4":"Vikings",
+        "correct":"option2",
+        "hint":"A famous leader of this group was Genghis Khan."
+    },
+    {
+        "question":"Who was the first Emperor of Rome?",
+        "option1":"Julius Caesar",
+        "option2":"Augustus",
+        "option3":"Nero",
+        "option4":"Constantine",
+        "correct":"option2",
+        "hint":"He was the adopted son of Julius Caesar."
+    },
+    {
+        "question":"What was the name of the ship that brought the Pilgrims to America in 1620?",
+        "option1":"Santa Maria",
+        "option2":"Titanic",
+        "option3":"Mayflower",
+        "option4":"Beagle",
+        "correct":"option3",
+        "hint":"It carried English settlers to Plymouth Rock."
+    },
+    {
+        "question":"Who was the leader of Germany during World War II?",
+        "option1":"Joseph Stalin",
+        "option2":"Winston Churchill",
+        "option3":"Adolf Hitler",
+        "option4":"Benito Mussolini",
+        "correct":"option3",
+        "hint":"He was the head of the Nazi Party."
+    },
+    {
+        "question":"The Renaissance was a period of revival in which areas?",
+        "option1":"Science and Art",
+        "option2":"Military and Agriculture",
+        "option3":"Religion and Politics",
+        "option4":"Medicine and Sports",
+        "correct":"option1",
+        "hint":"It was a cultural rebirth in Europe after the Middle Ages."
+    },
+    {
+        "question":"The French Revolution began in which year?",
+        "option1":"1776",
+        "option2":"1789",
+        "option3":"1812",
+        "option4":"1848",
+        "correct":"option2",
+        "hint":"It led to the fall of the monarchy and the rise of Napoleon."
+    },
+    {
+        "question":"Who discovered the sea route to India in 1498?",
+        "option1":"Ferdinand Magellan",
+        "option2":"Christopher Columbus",
+        "option3":"Vasco da Gama",
+        "option4":"Marco Polo",
+        "correct":"option3",
+        "hint":"He was a Portuguese explorer."
+    },
+    {
+        "question":" What was the main cause of the American Civil War?",
+        "option1":"Taxation",
+        "option2":"Religious Conflict",
+        "option3":"Slavery",
+        "option4":"Land Disputes",
+        "correct":"option3",
+        "hint":"The war was fought between the North and the South over this issue."
+    }
+    
+]

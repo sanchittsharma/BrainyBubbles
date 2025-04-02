@@ -1,0 +1,93 @@
+ [ 
+    {
+        "question":"What is part of a database that holds only one type of information?",
+        "option1":"Report",
+        "option2":"Field",
+        "option3":"Record",
+        "option4":"File",
+        "correct":"option2",
+        "hint":"It is the smallest unit of storage in a database table."
+    },
+    {
+        "question":"Which of the following statements is correct?",
+        "option1":"Derived class pointer cannot point to base class.",
+        "option2":"Base class pointer cannot point to derived class.",
+        "option3":"Pointer to derived class cannot be created.",
+        "option4":"Pointer to base class cannot be created.",
+        "correct":"option1",
+        "hint":"A derived class is created from a base class and can access its members, but pointers behave differently."
+    },
+    {
+        "question":"Which of the following type of class allows only one object of it to be created?",
+        "option1":"Virtual class",
+        "option2":"Abstract class",
+        "option3":"Singleton class",
+        "option4":"Friend class",
+        "correct":"option3",
+        "hint":"This type of class ensures that only one instance exists at a time."
+    },
+    {
+        "question":"Which of the following is not a type of constructor?",
+        "option1":"Copy constructor",
+        "option2":"Friend constructor",
+        "option3":"Default constructor",
+        "option4":"Parameterized constructor",
+        "correct":"option2",
+        "hint":"A constructor is a special method in a class, but some functions are not considered constructors."
+    },
+    {
+        "question":"Which of the following is not the member of class?",
+        "option1":"Static function",
+        "option2":"Const function",
+        "option3":"Friend function",
+        "option4":"Virtual function",
+        "correct":"option3",
+        "hint":"Some functions can access private members of a class without being actual members"
+    },
+    {
+        "question":"Which of the following concepts means determining at runtime what method to invoke?",
+        "option1":"Data hiding",
+        "option2":"Dynamic Typing",
+        "option3":"Dynamic binding",
+        "option4":"Dynamic loading",
+        "correct":"option3",
+        "hint":"This is a key feature of polymorphism in object-oriented programming."
+    },
+    {
+        "question":"The SQL WHERE clause:",
+        "option1":"limits the column data that are returned.",
+        "option2":"limits the row data are returned",
+        "option3":"Both A and B are correct.",
+        "option4":"Neither A nor B are correct.",
+        "correct":"option2",
+        "hint":"It helps filter results by specifying conditions on rows in a table."
+    },
+    {
+        "question":"Which of the following is the original purpose of SQL?",
+        "option1":"To specify the syntax and semantics of SQL data definition language",
+        "option2":"To specify the syntax and semantics of SQL manipulation language",
+        "option3":"To define the data structures",
+        "option4":"All of the above.",
+        "correct":"option3",
+        "hint":"SQL was designed to manage and manipulate structured data in relational databases."
+    },
+    {
+        "question":"Which of the following is not the member of class?",
+        "option1":"Static function",
+        "option2":"Const function",
+        "option3":"Friend function",
+        "option4":"Virtual function",
+        "correct":"option4",
+        "hint":"This type of function does not belong to a class but can still access its private members."
+    },
+    {
+        "question":"How long is an IPv6 address?",
+        "option1":"32 bits",
+        "option2":"128 bytes",
+        "option3":"64 bits",
+        "option4":"128 bits",
+        "correct":"option4",
+        "hint":"It is much longer than an IPv4 address and is designed for a larger number of devices."
+    }
+
+]
