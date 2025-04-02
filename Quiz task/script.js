@@ -23,7 +23,7 @@ function registerUser() {
   // Create user object
   const newUser = {
       username: username,
-      password: password  // Note: In a real application, never store plain text passwords!
+      password: password
   };
   // Add new user to the array
   users.push(newUser);
