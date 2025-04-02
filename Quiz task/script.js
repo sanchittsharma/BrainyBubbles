@@ -30,11 +30,9 @@ function registerUser() {
 
   // Save updated user data in localStorage
   localStorage.setItem("users", JSON.stringify(users));
-
   alert("User registered successfully!");
   storedUsername=username;
-  // Optionally, you can clear the input fields after registration
-  document.getElementById("username").value = '';
+ document.getElementById("username").value = '';
   document.getElementById("password").value = '';
   document.getElementById("loginpage").classList.remove("active");
   document.querySelector(".loginbox").classList.remove("active");
@@ -45,24 +43,19 @@ function login() {
   // Get user input values
   let username = document.getElementById("username").value;
   let password = document.getElementById("password").value;
-
-  // Check if inputs are empty
+ // Check if inputs are empty
   if (!username || !password) {
       alert("Please enter both username and password.");
       return;
   }
-
   // Retrieve existing users from localStorage
   let rawData = localStorage.getItem("users");
   let users = rawData ? JSON.parse(rawData) : [];
-
-  // Check if the user exists and the password matches
+ // Check if the user exists and the password matches
   const user = users.find(user => user.username === username && user.password === password);
 
   if (user) {
       alert("Login successful!");
-      // You can redirect the user to another page or show main content
-      // For example:
       storedUsername=username;
       document.getElementById("loginpage").classList.remove("active");
       document.querySelector(".loginbox").classList.remove("active");
@@ -174,19 +167,14 @@ function checkanswer(checkedinput) {
       incorrectsound.play();
     label.style.backgroundColor = "red";
     rightlabel.style.backgroundColor = "#1E88E5";
-    
-    
-    
-    wrong++;
+      wrong++;
     }
   }
   index++;
   if (index <= 9) {
     loadquestions();
     setTimeout(() => {
-      
-      
-      rightlabel.style.backgroundColor = "#2E7D32";
+       rightlabel.style.backgroundColor = "#2E7D32";
     }, 1500);
     if(answer!==undefined){
     setTimeout(() => {
@@ -196,8 +184,7 @@ function checkanswer(checkedinput) {
     }, 1200);
   }
   } else {
-    
-    showleaderboard();
+     showleaderboard();
   }
 }
 // function for leaderboard
@@ -317,17 +304,15 @@ window.SpeechRecognition =
   window.SpeechRecognition || window.webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
 
-recognition.continuous = false; // Stop listening after one phrase
-recognition.lang = "en-US"; // Set language
-recognition.interimResults = false; // Get final results only
-recognition.maxAlternatives = 1; // Best matching alternative
+recognition.continuous = false;
+recognition.lang = "en-US"; 
+recognition.interimResults = false; // final result
+recognition.maxAlternatives = 1; 
 
-let userSpokenAnswer = ""; // Variable to store user's spoken answer
+let userSpokenAnswer = ""; /
 function convertSpokenOption(spokenText) {
-  // Normalize spoken text (remove spaces and convert to lowercase)
   spokenText = spokenText.toLowerCase().trim();
-
-  // Mapping spoken words to option keys
+// Mapping spoken words to option keys
   let optionMap = {
     "option one": "option1",
     "option 1": "option1",
