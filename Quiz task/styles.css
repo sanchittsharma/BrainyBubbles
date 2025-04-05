@@ -41,9 +41,9 @@ body {
   align-self: center;
 }
 .logincontainer{
-  height: 40%;
-  
+/*   height: 40%; */
   background-color: #eee;
+  padding: 28px;
   /* text-align:start; */
 
 }
